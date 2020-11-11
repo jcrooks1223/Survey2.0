@@ -6142,11 +6142,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/CrisReeves/Source/Repo/Feedback/API/api.csproj",
+      "projectUniqueName": "/Users/CrisReeves/Source/Repo/Survey2.0/API/api.csproj",
       "projectName": "api",
-      "projectPath": "/Users/CrisReeves/Source/Repo/Feedback/API/api.csproj",
+      "projectPath": "/Users/CrisReeves/Source/Repo/Survey2.0/API/api.csproj",
       "packagesPath": "/Users/CrisReeves/.nuget/packages/",
-      "outputPath": "/Users/CrisReeves/Source/Repo/Feedback/API/obj/",
+      "outputPath": "/Users/CrisReeves/Source/Repo/Survey2.0/API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/CrisReeves/.nuget/NuGet/NuGet.Config"

@@ -9,29 +9,29 @@ namespace api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ConrollerNameController : ControllerBase
+    public class FeedBackController : ControllerBase
     {
-        // GET: api/ConrollerName
+        // GET: api/FeedBack
         [HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET: api/ConrollerName/5
+        // GET: api/FeedBack/5
         [HttpGet("{id}", Name = "Get")]
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST: api/ConrollerName
+        // POST: api/FeedBack
         [HttpPost]
         public void Post([FromBody] string value)
         {
         }
 
-        // PUT: api/ConrollerName/5
+        // PUT: api/FeedBack/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
