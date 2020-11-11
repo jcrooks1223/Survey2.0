@@ -10,7 +10,7 @@ namespace API.Model
        public List<Survey> GetAllSurvey()
        {
            List<Survey> allSurvey = new List<Survey>();
-            string cs = @"URI=file:/Users/CrisReeves/Source/Repo/Feedback/feedback.db";
+            string cs = @"URI=file:/Users/CrisReeves/Source/Repo/Survey2.0/database/feedback.db";
         
 
             using var con = new SQLiteConnection(cs);
@@ -33,7 +33,7 @@ namespace API.Model
         public Survey GetSurvey(int id)
         {
             List<Survey> allSurvey = new List<Survey>();
-            string cs = @"URI=file:/Users/CrisReeves/Source/Repo/Feedback/feedback.db";
+            string cs = @"URI=file:/Users/CrisReeves/Source/Repo/Survey2.0/database/feedback.db";
         
             using var con = new SQLiteConnection(cs);
             con.Open();

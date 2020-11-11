@@ -6,7 +6,7 @@ namespace API.Model
         public void SeedData()
         {
  
-            string cs = @"URI=file:/Users/CrisReeves/Source/Repo/Feedback/feedback.db";
+            string cs = @"URI=file:/Users/CrisReeves/Source/Repo/Survey2.0/database/feedback.db";
             using var con = new SQLiteConnection(cs);
             con.Open();
 
